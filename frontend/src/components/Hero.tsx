@@ -12,7 +12,7 @@ const Hero:React.FC<HeroProps> = ({ text, className }) => {
     return (
         <div className="relative w-full flex flex-col items-center justify-center pt-20">
             <div className="relative w-9/10">
-                <p className={`text-3xl font-semibold text-center ${className || ''}`}>
+                <p className={`text-4xl font-semibold text-center ${className || ''}`}>
                     {textParts.map((part, index) => (
                         <span key={index}>
                             {part}
